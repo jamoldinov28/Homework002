@@ -1,0 +1,126 @@
+@font-face {
+    font-family:DMSans;
+    src: url(../fonts/DMSans-VariableFont_opsz\,wght.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1472px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 34px;
+}
+.navbar__imaji{
+    color: #3F4E4F;
+}
+.navbar__title{
+    flex: 1;
+    padding: 100px;
+    font-family: DMSans;
+    font-size: 32px;
+    font-weight: 500;
+    color: #A27B5C;
+    display: flex;
+    gap: 10px;
+}
+.navbar__collection{
+    display: flex;
+    gap: 24px;
+    font-family:DMSans;
+    font-size: 20px;
+    font-weight: 400;
+    color: #121212;
+}
+.navbar__btn{
+    padding: 14px 27px 14px 27px;
+    gap: 200px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    color: #A27B5C;
+}
+.navbar__btn.active{
+    background: #A27B5C;
+    color: #fff;
+}
+.navbar__item{
+    margin-top: 8px;
+}
+
+.trade{
+    background: #FCF7EF;
+}
+.trade__text{
+    margin-top: 80px;
+}
+.trade__text strong{
+    font-size: 80px;
+    font-weight: 500;
+    color: #121212;
+    margin-left: 40%;
+    font-family: DMSans;
+}
+.trade__text p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #121212;
+    text-align: center;
+    margin-top: 20px;
+    font-family: DMSans;
+}
+.trade__image{
+ margin-left: 124px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+.trade__coffe{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: DMSans;
+}
+.card__wrapper{
+    display: flex;
+   margin-bottom: 50px;
+}
+.card__image{
+    margin-left: 124px;
+    display: flex;
+}
+.card__text{
+    margin-left: 50px;
+    margin-top: 48px;
+    font-family: DMSans;
+    width: 263px;
+}
+.card__text h3{
+     margin-bottom: 5px;
+}
+.card__btn{
+    margin-left: 645px;
+    padding: 14px 27px 14px 27px;
+    margin-bottom: 100px;
+    color: #A27B5C;
+    border: 1px solid #A27B5C;
+    background: #fff;
+    border-radius: 1px;
+}
